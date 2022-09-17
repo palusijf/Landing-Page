@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+header h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+button,
+.call {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.call button {
+  border-color: #f9faf8;
+}
+h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+}
+.quote strong {
+  font-size: 24px;
+}
+footer {
+    background-color: #1f2937;
+  }
