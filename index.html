@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="nav">
         <div class="logo"><strong>Header Logo</strong></div>
         <ul>
           <li><a href="#">header link one</a></li>
@@ -17,48 +17,60 @@
           <li><a href="#">header link one</a></li>
         </ul>
       </div>
-      <div>
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <button>Sign up</button>
-        <p>this is a placeholder for an image</p>
+      <div class="welcome">
+        <div>
+          <h1>This website is awesome</h1>
+          <p class="secondary">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button class="secondary">Sign up</button>
+        </div>
+        <div class="image">
+          <p class="secondary">this is a placeholder for an image</p>
+        </div>
       </div>
     </header>
-    <div>
+    <main>
       <h2>Some random information</h2>
-      <div>
-        <div></div>
-        <p>this is some subtext under an illustration or an image</p>
+      <div class="card-container secondary">
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or an image</p>
+        </div>
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or an image</p>
+        </div>
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or an image</p>
+        </div>
+        <div class="card">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or an image</p>
+        </div>
       </div>
-      <div>
-        <div></div>
-        <p>this is some subtext under an illustration or an image</p>
-      </div>
-      <div>
-        <div></div>
-        <p>this is some subtext under an illustration or an image</p>
-      </div>
-    </div>
+    </main>
     <div class="quote">
       <em
         >This is an inspiring quote, or a testimonial from a customer. Maybe
         it's just filling up space, or maybe people will actually read it. Who
         knows? All I know is that it looks nice.
       </em>
-      <strong>-Thor, God of Thunder</strong>
+      <p>-Thor, God of Thunder</p>
     </div>
-    <div class="call">
-      <strong>Call to action! It's time!</strong>
-      <p>Sign up for our product by clicking that button right over here!</p>
-      <button>Sign up</button>
+    <div class="sign-up">
+      <div class="container">
+        <div>
+          <strong>Call to action! It's time!</strong>
+          <p class="secondary">
+            Sign up for our product by clicking that button right over here!
+          </p>
+        </div>
+        <button class="secondary">Sign up</button>
+      </div>
     </div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
     <footer>Copyright &copy; The Odin Project 2021</footer>
   </body>
 </html>
